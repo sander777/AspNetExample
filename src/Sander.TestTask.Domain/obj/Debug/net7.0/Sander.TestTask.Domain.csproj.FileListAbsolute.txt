@@ -1,0 +1,11 @@
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\bin\Debug\net7.0\Sander.TestTask.Domain.deps.json
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\bin\Debug\net7.0\Sander.TestTask.Domain.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\bin\Debug\net7.0\Sander.TestTask.Domain.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.AssemblyInfoInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.AssemblyInfo.cs
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.csproj.CoreCompileInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\refint\Sander.TestTask.Domain.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\Sander.TestTask.Domain.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Domain\obj\Debug\net7.0\ref\Sander.TestTask.Domain.dll

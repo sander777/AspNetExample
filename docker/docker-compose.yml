@@ -1,0 +1,14 @@
+# File for creating env for local instanse for server
+version: "3.8"
+
+services:
+  mssql:
+    container_name: sql-server
+    image: dgcosenza/mssql-fts:ubuntu # SQL Server with Full Text Search
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "SecretDbPassword123"
+    ports:
+      - 1433:1433
+    volumes:
+      - ./mssql:/var/opt/mssql/docker-entrypoint-initdb.d

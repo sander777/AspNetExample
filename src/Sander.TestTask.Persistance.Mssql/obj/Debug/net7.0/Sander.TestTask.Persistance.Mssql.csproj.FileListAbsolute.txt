@@ -1,0 +1,17 @@
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Persistance.Mssql.deps.json
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Persistance.Mssql.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Persistance.Mssql.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Application.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Domain.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Application.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\bin\Debug\net7.0\Sander.TestTask.Domain.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.csproj.AssemblyReference.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.AssemblyInfoInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.AssemblyInfo.cs
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.csproj.CoreCompileInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.csproj.CopyComplete
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\refint\Sander.TestTask.Persistance.Mssql.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\Sander.TestTask.Persistance.Mssql.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Persistance.Mssql\obj\Debug\net7.0\ref\Sander.TestTask.Persistance.Mssql.dll

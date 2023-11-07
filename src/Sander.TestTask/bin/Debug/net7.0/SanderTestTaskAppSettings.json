@@ -1,0 +1,12 @@
+{
+  "SqlServerSettings": {
+    "ConnectionString": "Server=localhost;Database=market;User Id=SA;Password=SecretDbPassword123;Encrypt=False"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

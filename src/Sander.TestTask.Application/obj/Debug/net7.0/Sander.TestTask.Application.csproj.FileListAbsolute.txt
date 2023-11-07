@@ -1,0 +1,15 @@
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\bin\Debug\net7.0\Sander.TestTask.Application.deps.json
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\bin\Debug\net7.0\Sander.TestTask.Application.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\bin\Debug\net7.0\Sander.TestTask.Application.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\bin\Debug\net7.0\Sander.TestTask.Domain.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\bin\Debug\net7.0\Sander.TestTask.Domain.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.csproj.AssemblyReference.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.AssemblyInfoInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.AssemblyInfo.cs
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.csproj.CoreCompileInputs.cache
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.csproj.CopyComplete
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\refint\Sander.TestTask.Application.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\Sander.TestTask.Application.pdb
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask.Application\obj\Debug\net7.0\ref\Sander.TestTask.Application.dll

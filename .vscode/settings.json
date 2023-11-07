@@ -1,0 +1,22 @@
+{
+    "cSpell.words": [
+        "Sander"
+    ],
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": false,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "market",
+            "database": "market",
+            "password": "SecretDbPassword123",
+            "username": "sa"
+        }
+    ]
+}
