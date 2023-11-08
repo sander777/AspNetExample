@@ -66,16 +66,16 @@ public class AuctionsController : Controller
             Order = request.Order,
             Seller = request.Seller,
             Sorting = request.Sorting,
-            Limit = request.Limit,
-            Offset = request.Offset
+            Limit = request.PageSize + 1,
+            Offset = (request.Page - 1) * request.PageSize
         };
         var response = await _mediator.Send(query);
         var items = response.Select(AuctionDto.ToDto).ToList();
         return Ok(new AuctionsResponse
         {
-            Items = items,
-            Limit = request.Limit ?? items.Count,
-            Offset = (request.Offset ?? 0) + items.Count,
+            Items = items.Take(request.PageSize).ToList(),
+            PageSize = request.PageSize,
+            NextPage = items.Count <= request.PageSize ? null : request.Page + 1,
         });
     }
 }

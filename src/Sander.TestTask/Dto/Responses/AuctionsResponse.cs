@@ -8,11 +8,11 @@ public class AuctionsResponse
     [JsonPropertyName("items")]
     public required IReadOnlyCollection<AuctionDto> Items { get; set; }
 
-    [JsonPropertyName("limit")]
-    public int? Limit { get; set; }
+    [JsonPropertyName("page_size")]
+    public int? PageSize { get; set; }
 
-    [JsonPropertyName("offset")]
-    public int? Offset { get; set; }
+    [JsonPropertyName("next_page")]
+    public int? NextPage { get; set; }
 }
 
 public class AuctionDto
@@ -24,7 +24,7 @@ public class AuctionDto
     public required int MarketItem { get; set; }
 
     [JsonPropertyName("item_name")]
-    public string MarketItemName { get; set; }
+    public string? MarketItemName { get; set; }
 
     [JsonPropertyName("created_at")]
     public required DateTime CreatedAt { get; set; }

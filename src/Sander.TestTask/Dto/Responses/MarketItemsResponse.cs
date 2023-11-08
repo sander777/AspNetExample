@@ -8,11 +8,11 @@ public class MarketItemsResponse
     [JsonPropertyName("items")]
     public required IReadOnlyCollection<MarketItemDto> Items { get; set; }
 
-    [JsonPropertyName("limit")]
-    public int? Limit { get; set; }
+    [JsonPropertyName("page_size")]
+    public int? PageSize { get; set; }
 
-    [JsonPropertyName("offset")]
-    public int? Offset { get; set; }
+    [JsonPropertyName("next_page")]
+    public int? NextPage { get; set; }
 }
 
 public class MarketItemDto
