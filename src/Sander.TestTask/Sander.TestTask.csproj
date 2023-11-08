@@ -9,6 +9,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13" />
+    <PackageReference Include="Asp.Versioning.Mvc" Version="7.1.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sander.TestTask.Domain\Sander.TestTask.Domain.csproj" />
@@ -20,6 +21,10 @@
     <Content Update="Properties\*.*">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\v1\" />
   </ItemGroup>
   <PropertyGroup>
     <RunWorkingDirectory>$(OutputDirectory)</RunWorkingDirectory>

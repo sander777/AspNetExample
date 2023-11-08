@@ -6,6 +6,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddConfigurationSources();
 builder.Services.AddControllers()
     .AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
+builder.Services.AddApiVersioning(setup =>
+{
+    setup.ReportApiVersions = true;
+}).AddMvc();
 builder.Services.AddSwaggerGen();
 builder.Services.AddConfiguration(builder.Configuration);
 builder.Services.AddSqlServer();

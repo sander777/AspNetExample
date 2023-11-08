@@ -242,6 +242,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"

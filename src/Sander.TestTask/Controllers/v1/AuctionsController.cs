@@ -3,10 +3,12 @@ using Sander.TestTask.Application.Queries;
 using Sander.TestTask.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Asp.Versioning;
 
 namespace Sander.TestTask;
 
-[Route("api/auctions")]
+[ApiVersion("1.0")]
+[Route("api/v1/auctions")]
 public class AuctionsController : Controller
 {
     private readonly IMediator _mediator;

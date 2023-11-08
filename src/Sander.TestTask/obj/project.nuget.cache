@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jJ34kwfSFXaSYmmwyZw3spfR+kW/+t1rqCDOR9kaPs04q1aH52HY2xF9nOfSwT0i3eAeqfZw78QnGHusg7l9pQ==",
+  "dgSpecHash": "rBDDx7nHOJm7FVAdvWRTvlk5aHXjZQfHKJCFydwKOHR8kEuRtBnSRllfS2rMvPYU7GYK0dvyjrwUBtuTMtz1AA==",
   "success": true,
   "projectFilePath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sander\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sander\\.nuget\\packages\\asp.versioning.http\\7.1.0\\asp.versioning.http.7.1.0.nupkg.sha512",
+    "C:\\Users\\Sander\\.nuget\\packages\\asp.versioning.mvc\\7.1.0\\asp.versioning.mvc.7.1.0.nupkg.sha512",
     "C:\\Users\\Sander\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Sander\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Sander\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

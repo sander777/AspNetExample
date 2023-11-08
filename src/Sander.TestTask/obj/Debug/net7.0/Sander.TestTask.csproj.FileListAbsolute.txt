@@ -81,3 +81,6 @@ D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.Test
 D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\obj\Debug\net7.0\Sander.TestTask.pdb
 D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\obj\Debug\net7.0\Sander.TestTask.genruntimeconfig.cache
 D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\obj\Debug\net7.0\ref\Sander.TestTask.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\bin\Debug\net7.0\Asp.Versioning.Abstractions.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\bin\Debug\net7.0\Asp.Versioning.Http.dll
+D:\Users\Sander\Documents\Workspace\Repositories\Sander.TestTask\src\Sander.TestTask\bin\Debug\net7.0\Asp.Versioning.Mvc.dll

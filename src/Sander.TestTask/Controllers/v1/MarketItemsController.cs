@@ -5,8 +5,10 @@ using Sander.TestTask.Dto.Requests;
 using Sander.TestTask.Dto.Responses;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Asp.Versioning;
 
-[Route("api/items")]
+[ApiVersion("1.0")]
+[Route("api/v1/items")]
 public class MarketItemsController : Controller
 {
     private readonly IMediator _mediator;
