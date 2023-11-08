@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {}
+    "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
+    "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
+        "projectUniqueName": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
         "projectName": "Sander.TestTask.Domain",
-        "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
+        "projectPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
         "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\obj\\",
+        "outputPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sander\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xJglvhoZJA44kixGpguskp5hHdRWxi8QzHy7rLYOvlnyxJVgytKPGEC1oDlPYnPFqK5o7fc/p7VSwTYJRoQ3JQ==",
+  "dgSpecHash": "4hJvN9R3qKroRvZz1rVbJ/ALtxmktIft12cBxdjrByoaj1KP7GV2JUznJ26nzOLbA/tWcznJF9p9dtgwW1Ky6Q==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
+  "projectFilePath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

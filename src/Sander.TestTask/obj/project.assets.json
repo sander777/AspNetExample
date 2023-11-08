@@ -3503,11 +3503,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
+      "projectUniqueName": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
       "projectName": "Sander.TestTask",
-      "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
+      "projectPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
       "packagesPath": "C:\\Users\\Sander\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\obj\\",
+      "outputPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sander\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3527,8 +3527,8 @@
             "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Application\\Sander.TestTask.Application.csproj": {
               "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Application\\Sander.TestTask.Application.csproj"
             },
-            "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
-              "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj"
+            "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
+              "projectPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj"
             },
             "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Persistance.Mssql\\Sander.TestTask.Persistance.Mssql.csproj": {
               "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Persistance.Mssql\\Sander.TestTask.Persistance.Mssql.csproj"

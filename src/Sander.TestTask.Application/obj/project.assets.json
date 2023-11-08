@@ -434,8 +434,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
-              "projectPath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj"
+            "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj": {
+              "projectPath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask.Domain\\Sander.TestTask.Domain.csproj"
             }
           }
         }

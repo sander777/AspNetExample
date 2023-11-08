@@ -77,9 +77,11 @@ public class AuctionRepository : IAuctionRepository
             .ToList();
     }
 
-    public Task<Auction> GetById(int id)
+    public async Task<Auction?> GetById(int id)
     {
-        throw new NotImplementedException();
+        return ToDomain(await _dbContext.Auctions
+            .Include(x => x.MarketItem)
+            .FirstOrDefaultAsync(x => x.Id == id));
     }
 
     public async Task<int> Upsert(Auction auction)

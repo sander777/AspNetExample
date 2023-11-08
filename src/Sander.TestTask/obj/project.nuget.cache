@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rBDDx7nHOJm7FVAdvWRTvlk5aHXjZQfHKJCFydwKOHR8kEuRtBnSRllfS2rMvPYU7GYK0dvyjrwUBtuTMtz1AA==",
+  "dgSpecHash": "cT+S1EF2c2Oi4DDvPpOMXH6PW8QC5RROZu00VMnoApmSWQGk0jvBiKimFh27J/OklGzk+bXutcjZdy2dDecmfg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
+  "projectFilePath": "d:\\Users\\Sander\\Documents\\Workspace\\Repositories\\Sander.TestTask\\src\\Sander.TestTask\\Sander.TestTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sander\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Sander\\.nuget\\packages\\asp.versioning.http\\7.1.0\\asp.versioning.http.7.1.0.nupkg.sha512",
