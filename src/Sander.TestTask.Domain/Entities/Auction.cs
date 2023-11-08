@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Sander.TestTask.Domain.Entities;
+﻿namespace Sander.TestTask.Domain.Entities;
 
 public class Auction : IAggregateRoot
 {

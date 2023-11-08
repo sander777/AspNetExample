@@ -1,9 +1,12 @@
-﻿using Sander.TestTask.Application;
+﻿using Microsoft.AspNetCore.Mvc;
+
+using Asp.Versioning;
+
+using MediatR;
+
+using Sander.TestTask.Application;
 using Sander.TestTask.Application.Queries;
 using Sander.TestTask.Domain;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Asp.Versioning;
 
 namespace Sander.TestTask;
 

@@ -1,11 +1,14 @@
+using Microsoft.AspNetCore.Mvc;
+
+using Asp.Versioning;
+
+using MediatR;
+
 using Sander.TestTask;
 using Sander.TestTask.Application.Commands;
 using Sander.TestTask.Application.Queries;
 using Sander.TestTask.Dto.Requests;
 using Sander.TestTask.Dto.Responses;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Asp.Versioning;
 
 [ApiVersion("1.0")]
 [Route("api/v1/items")]

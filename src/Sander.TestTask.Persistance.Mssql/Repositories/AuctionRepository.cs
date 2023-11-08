@@ -1,9 +1,10 @@
-﻿using Sander.TestTask.Domain;
+﻿using Microsoft.EntityFrameworkCore;
+
+using Sander.TestTask.Domain;
 using Sander.TestTask.Domain.Entities;
 using Sander.TestTask.Domain.Repositories;
 using Sander.TestTask.Persistance.Mssql.Entities;
 using Sander.TestTask.Persistance.Mssql.Repository;
-using Microsoft.EntityFrameworkCore;
 
 namespace Sander.TestTask.Persistance.Mssql;
 

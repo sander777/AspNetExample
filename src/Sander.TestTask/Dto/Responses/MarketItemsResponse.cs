@@ -1,4 +1,5 @@
 ﻿using System.Text.Json.Serialization;
+
 using Sander.TestTask.Domain.Entities;
 
 namespace Sander.TestTask.Dto.Responses;

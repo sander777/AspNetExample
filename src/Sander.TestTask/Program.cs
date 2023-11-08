@@ -1,5 +1,6 @@
-using Sander.TestTask.Services;
 using System.Text.Json.Serialization;
+
+using Sander.TestTask.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

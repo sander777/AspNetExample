@@ -1,6 +1,6 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using Microsoft.EntityFrameworkCore;
+
 using Sander.TestTask.Persistance.Mssql.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace Sander.TestTask.Persistance.Mssql;
 

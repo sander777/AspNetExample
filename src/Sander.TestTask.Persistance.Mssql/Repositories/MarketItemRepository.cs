@@ -1,8 +1,8 @@
-﻿using System.Runtime.CompilerServices;
+﻿using Microsoft.EntityFrameworkCore;
+
 using Sander.TestTask.Domain.Entities;
 using Sander.TestTask.Domain.Repositories;
 using Sander.TestTask.Persistance.Mssql.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace Sander.TestTask.Persistance.Mssql.Repository;
 

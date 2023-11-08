@@ -1,7 +1,8 @@
-﻿using Sander.TestTask.Application.Queries;
+﻿using Microsoft.Extensions.Caching.Memory;
+
+using Sander.TestTask.Application.Queries;
 using Sander.TestTask.Domain.Entities;
 using Sander.TestTask.Domain.Repositories;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace Sander.TestTask.Application.QueryHandlers;
 

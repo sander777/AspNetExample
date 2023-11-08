@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Sander.TestTask.Domain.Entities;
+
 using Microsoft.EntityFrameworkCore;
+
+using Sander.TestTask.Domain.Entities;
 
 namespace Sander.TestTask.Persistance.Mssql.Entities;
 

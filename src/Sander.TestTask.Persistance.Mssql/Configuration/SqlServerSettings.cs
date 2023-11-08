@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace Sander.TestTask.Persistance.Mssql;
+﻿namespace Sander.TestTask.Persistance.Mssql;
 
 public class SqlServerSettings
 {

@@ -1,5 +1,6 @@
-﻿using Sander.TestTask.Application.Commands;
-using MediatR;
+﻿using MediatR;
+
+using Sander.TestTask.Application.Commands;
 
 namespace Sander.TestTask.Application.CommandHandlers;
 

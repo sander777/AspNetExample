@@ -1,8 +1,8 @@
-﻿
+﻿using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
+
 using Sander.TestTask.Domain;
 using Sander.TestTask.Domain.Repositories;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Logging;
 
 namespace Sander.TestTask.Application.CommandHandlers;
 

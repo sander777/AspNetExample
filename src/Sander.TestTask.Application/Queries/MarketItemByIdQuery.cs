@@ -1,5 +1,4 @@
-﻿using Sander.TestTask.Application.Queries;
-using Sander.TestTask.Domain.Entities;
+﻿using Sander.TestTask.Domain.Entities;
 
 namespace Sander.TestTask.Application.Queries;
 
