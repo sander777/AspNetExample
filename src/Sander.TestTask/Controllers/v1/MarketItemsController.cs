@@ -22,7 +22,7 @@ public class MarketItemsController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<MarketItemsResponse>> Get([FromQuery] GetMarketItemRequest request)
+    public async Task<ActionResult<MarketItemsResponse>> Get([FromQuery] GetMarketItemRequest request, CancellationToken ct)
     {
         var query = new MarketItemQuery
         {
@@ -30,7 +30,7 @@ public class MarketItemsController : Controller
             Limit = request.PageSize + 1,
             Offset = (request.Page - 1) * request.PageSize
         };
-        var response = await _mediator.Send(query);
+        var response = await _mediator.Send(query, ct);
         var items = response.Select(MarketItemDto.ToDto).ToList();
         return Ok(new MarketItemsResponse
         {
@@ -41,13 +41,13 @@ public class MarketItemsController : Controller
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<MarketItemDto>> GetById([FromRoute] int id)
+    public async Task<ActionResult<MarketItemDto>> GetById([FromRoute] int id, CancellationToken ct)
     {
         var query = new MarketItemByIdQuery
         {
             Id = id,
         };
-        var response = await _mediator.Send(query);
+        var response = await _mediator.Send(query, ct);
         if (response is null)
         {
             return NotFound();
@@ -56,7 +56,7 @@ public class MarketItemsController : Controller
     }
 
     [HttpPost]
-    public async Task<ActionResult<int>> Post([FromBody] CreateMarketItemRequest request)
+    public async Task<ActionResult<int>> Post([FromBody] CreateMarketItemRequest request, CancellationToken ct)
     {
         var command = new CreateMarketItemCommand
         {
@@ -64,7 +64,7 @@ public class MarketItemsController : Controller
             Description = request.Description,
             MetaData = request.MetaData
         };
-        var id = await _mediator.Send(command);
+        var id = await _mediator.Send(command, ct);
 
         return Ok(id);
     }

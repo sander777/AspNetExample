@@ -24,7 +24,7 @@ public class AuctionsController : Controller
     }
 
     [HttpPost]
-    public async Task<ActionResult<int>> Post([FromBody] CreateAuctionRequest request)
+    public async Task<ActionResult<int>> Post([FromBody] CreateAuctionRequest request, CancellationToken ct)
     {
         var command = new CreateAuctionCommand
         {
@@ -34,7 +34,7 @@ public class AuctionsController : Controller
         };
         try
         {
-            var id = await _mediator.Send(command);
+            var id = await _mediator.Send(command, ct);
             return Ok(id);
         }
         catch (MarketItemNotFoundException e)
@@ -45,13 +45,13 @@ public class AuctionsController : Controller
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<AuctionDto>> GetById([FromRoute] int id)
+    public async Task<ActionResult<AuctionDto>> GetById([FromRoute] int id, CancellationToken ct)
     {
         var query = new AuctionByIdQuery
         {
             Id = id,
         };
-        var response = await _mediator.Send(query);
+        var response = await _mediator.Send(query, ct);
         if (response is null)
         {
             return NotFound();
@@ -60,7 +60,7 @@ public class AuctionsController : Controller
     }
 
     [HttpGet]
-    public async Task<ActionResult<AuctionsResponse>> Get([FromQuery] GetAuctionRequest request)
+    public async Task<ActionResult<AuctionsResponse>> Get([FromQuery] GetAuctionRequest request, CancellationToken ct)
     {
         var query = new AuctionQuery
         {
@@ -72,7 +72,7 @@ public class AuctionsController : Controller
             Limit = request.PageSize + 1,
             Offset = (request.Page - 1) * request.PageSize
         };
-        var response = await _mediator.Send(query);
+        var response = await _mediator.Send(query, ct);
         var items = response.Select(AuctionDto.ToDto).ToList();
         return Ok(new AuctionsResponse
         {

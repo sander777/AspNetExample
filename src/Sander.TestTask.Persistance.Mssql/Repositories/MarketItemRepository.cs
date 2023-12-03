@@ -15,10 +15,11 @@ public class MarketItemRepository : IMarketItemsRepository
         _dbContext = dbContext;
     }
 
-    public async Task<IReadOnlyCollection<MarketItem>> Get(
+    public async Task<IReadOnlyCollection<MarketItem>> GetAsync(
         string? name = null,
         int? limit = null,
-        int? offset = null)
+        int? offset = null,
+        CancellationToken ct = default)
     {
         var query = _dbContext.MarketItems.AsQueryable();
         if (name is not null)
@@ -36,7 +37,7 @@ public class MarketItemRepository : IMarketItemsRepository
             query = query.Take(limit.Value);
 
         }
-        var result = await query.ToListAsync();
+        var result = await query.ToListAsync(ct);
 
         return result
             .Select(ToDomain)
@@ -44,16 +45,16 @@ public class MarketItemRepository : IMarketItemsRepository
             .ToList();
     }
 
-    public async Task<MarketItem?> GetById(int id)
+    public async Task<MarketItem?> GetByIdAsync(int id, CancellationToken ct)
     {
-        return ToDomain(await _dbContext.MarketItems.FirstOrDefaultAsync(x => x.Id == id));
+        return ToDomain(await _dbContext.MarketItems.FirstOrDefaultAsync(x => x.Id == id, ct));
     }
 
-    public async Task<int> UpsertAsync(MarketItem marketItem)
+    public async Task<int> UpsertAsync(MarketItem marketItem, CancellationToken ct)
     {
         var entity = ToEntity(marketItem);
         _dbContext.MarketItems.Update(entity);
-        await _dbContext.SaveChangesAsync();
+        await _dbContext.SaveChangesAsync(ct);
         return entity.Id;
     }
 

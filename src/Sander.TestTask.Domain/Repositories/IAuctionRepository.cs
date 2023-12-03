@@ -4,7 +4,7 @@ namespace Sander.TestTask.Domain.Repositories;
 
 public interface IAuctionRepository
 {
-    Task<Auction?> GetById(int id);
+    Task<Auction?> GetByIdAsync(int id, CancellationToken ct);
 
     Task<IReadOnlyCollection<Auction>> Get(
         MarketStatus? status,
@@ -13,9 +13,10 @@ public interface IAuctionRepository
         SortingOption? sortingOption = SortingOption.CreatedAt,
         SortingOrder? sortingOrder = SortingOrder.Asc,
         int? limit = null,
-        int? offset = null);
+        int? offset = null,
+        CancellationToken ct = default);
 
-    Task<int> Upsert(Auction auction);
+    Task<int> UpsertAsync(Auction auction, CancellationToken ct);
 }
 
 public enum SortingOption

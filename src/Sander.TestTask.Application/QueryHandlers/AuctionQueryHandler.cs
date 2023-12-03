@@ -19,7 +19,7 @@ public class AuctionQueryHandler :
         _memoryCache = memoryCache;
     }
 
-    public Task<IReadOnlyCollection<Auction>> Handle(AuctionQuery request, CancellationToken cancellationToken)
+    public Task<IReadOnlyCollection<Auction>> Handle(AuctionQuery request, CancellationToken ct)
     {
         var items = _auctionRepository.Get(
             request.MarketStatus,
@@ -28,16 +28,17 @@ public class AuctionQueryHandler :
             request.Sorting,
             request.Order,
             request.Limit,
-            request.Offset);
+            request.Offset,
+            ct);
         return items;
     }
 
-    public Task<Auction?> Handle(AuctionByIdQuery request, CancellationToken cancellationToken)
+    public Task<Auction?> Handle(AuctionByIdQuery request, CancellationToken ct)
     {
         var res = _memoryCache.GetOrCreateAsync<Auction>($"auction_{request.Id}",
             (_) =>
             {
-                return _auctionRepository.GetById(request.Id);
+                return _auctionRepository.GetByIdAsync(request.Id, ct);
             });
         return res;
     }

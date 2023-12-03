@@ -23,7 +23,7 @@ public class CreateMarketItemCommandHandler : ICommandHandler<CreateMarketItemCo
         _logger = logger;
     }
 
-    public async Task<int> Handle(CreateMarketItemCommand request, CancellationToken cancellationToken)
+    public async Task<int> Handle(CreateMarketItemCommand request, CancellationToken ct)
     {
         _logger.LogInformation("Creating item");
         var id = await _repository.UpsertAsync(new Domain.Entities.MarketItem
@@ -31,7 +31,7 @@ public class CreateMarketItemCommandHandler : ICommandHandler<CreateMarketItemCo
             Name = request.Name,
             Description = request.Description,
             MetaData = request.MetaData
-        });
+        }, ct);
 
         _memoryCache.Remove($"market_item_{id}");
         _logger.LogInformation("Created item with @id", id);

@@ -23,16 +23,16 @@ public class MarketItemQueryHandler :
         MarketItemQuery request,
         CancellationToken cancellationToken)
     {
-        var items = _marketItemsRepository.Get(request.Name, request.Limit, request.Offset);
+        var items = _marketItemsRepository.GetAsync(request.Name, request.Limit, request.Offset);
         return items;
     }
 
-    public Task<MarketItem?> Handle(MarketItemByIdQuery request, CancellationToken cancellationToken)
+    public Task<MarketItem?> Handle(MarketItemByIdQuery request, CancellationToken ct)
     {
         var res = _memoryCache.GetOrCreateAsync<MarketItem>($"market_item_{request.Id}",
             (_) =>
             {
-                return _marketItemsRepository.GetById(request.Id);
+                return _marketItemsRepository.GetByIdAsync(request.Id, ct);
             });
         return res;
     }

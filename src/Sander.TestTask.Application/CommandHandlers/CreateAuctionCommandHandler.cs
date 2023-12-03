@@ -26,17 +26,17 @@ public class CreateAuctionCommandHandler : ICommandHandler<CreateAuctionCommand,
         _logger = logger;
     }
 
-    public async Task<int> Handle(CreateAuctionCommand request, CancellationToken cancellationToken)
+    public async Task<int> Handle(CreateAuctionCommand request, CancellationToken ct)
     {
         _logger.LogInformation("Creating action for item @id", request.ItemId);
-        var item = await _marketItemsRepository.GetById(request.ItemId);
+        var item = await _marketItemsRepository.GetByIdAsync(request.ItemId, ct);
         if (item is null)
         {
             throw new MarketItemNotFoundException(request.ItemId);
         }
         var auction = item.CreateAuctionForItem(request.InitialPrice, request.Seller ?? string.Empty);
 
-        var id = await _auctionRepository.Upsert(auction);
+        var id = await _auctionRepository.UpsertAsync(auction, ct);
         _memoryCache.Remove($"auction_{id}");
         _logger.LogInformation("Created action for item @id", request.ItemId);
 

@@ -24,7 +24,8 @@ public class AuctionRepository : IAuctionRepository
         SortingOption? sortingOption = SortingOption.CreatedAt,
         SortingOrder? sortingOrder = SortingOrder.Asc,
         int? limit = null,
-        int? offset = null)
+        int? offset = null,
+        CancellationToken ct = default)
     {
         var query = _dbContext.Auctions.AsQueryable();
         if (status is not null)
@@ -69,7 +70,7 @@ public class AuctionRepository : IAuctionRepository
             query = query.Take(limit.Value);
 
         }
-        var result = await query.Include(x => x.MarketItem).ToListAsync();
+        var result = await query.Include(x => x.MarketItem).ToListAsync(ct);
 
         return result
             .Select(ToDomain)
@@ -77,14 +78,14 @@ public class AuctionRepository : IAuctionRepository
             .ToList();
     }
 
-    public async Task<Auction?> GetById(int id)
+    public async Task<Auction?> GetByIdAsync(int id, CancellationToken ct)
     {
         return ToDomain(await _dbContext.Auctions
             .Include(x => x.MarketItem)
-            .FirstOrDefaultAsync(x => x.Id == id));
+            .FirstOrDefaultAsync(x => x.Id == id, ct));
     }
 
-    public async Task<int> Upsert(Auction auction)
+    public async Task<int> UpsertAsync(Auction auction, CancellationToken ct)
     {
         var entity = new AuctionEntity
         {
@@ -97,7 +98,7 @@ public class AuctionRepository : IAuctionRepository
         };
 
         _dbContext.Auctions.Update(entity);
-        await _dbContext.SaveChangesAsync();
+        await _dbContext.SaveChangesAsync(ct);
         return entity.Id;
     }
 
